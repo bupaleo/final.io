@@ -1,0 +1,347 @@
+
+  /* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* anek-bangla-regular - latin */
+@font-face {
+    font-family: 'Anek Bangla';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/anek-bangla-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/anek-bangla-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* anek-bangla-500 - latin */
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/anek-bangla-v4-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/anek-bangla-v4-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+body{
+    font-family: 'Anek Bangla';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header{background-color: rgb(255, 255, 255); padding-bottom:10px}
+.header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    color: black;
+}
+    .wrapper{
+        max-width: 1560px;
+        margin: 0 auto;
+    }
+
+    .header__wrapper{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding-top: 15px;
+
+    }
+    .header__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a{        color: black}
+    .header__item{
+        margin-right: 55px;
+    }
+
+.intro{
+    height: 747px;
+    background: url(img/kyrgyzstan.jpg) no-repeat center;
+    background-size: cover;}
+    .intro__title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        padding-top: 290px;
+        width: 751px;
+        color:white;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 22px;
+    }
+    .intro__subtitle{
+        width: 700px;
+        font-weight: 400;
+        font-size: 19px;
+        color:white;
+    }
+    .search-from__submit{  
+        margin-top: 10px;      
+        padding:10px;
+        height: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        background: #1877F2;
+        border:0;
+        padding-bottom: 30px
+    }
+
+.distination{
+    max-width: 1060px;
+    margin: 0 auto;    
+    display: flex;
+}
+.first{
+    height: 414px;
+    margin-top:100px;
+
+}
+
+.first_text{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;       
+    width: 751px;
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 22px;}
+
+    .second_text{
+        font-family: 'Anek Bangla';
+        font-style: normal;
+        font-weight: 400;
+    width: 535px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;    
+    color:black;
+    }
+
+.first_img{
+    padding-top: 55px;
+    width: 600px;
+    height: 450px;
+    
+}
+#first{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper_full{
+    max-width: 1260px;
+    margin:0 auto;
+}
+
+.section-title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'poppins';
+}
+
+.tours_name{
+    margin:60px;
+    align-items: center;
+    display:flex;
+    justify-content: flex-start;    
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.img_tours{
+    width: 360px; 
+    height: 371px;
+    display: flex;
+    align-items: center;
+}
+
+.block_tours{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px black;
+    border-style: solid;
+
+}
+.tours_text{
+    font-size: 15px;
+
+}
+.tours__text{
+    margin-left:20px;
+    width: 380px;
+    text-align: center;
+}
+
+.in-cart{
+    font-family: 'Poppins';
+    margin-top:80px;
+    color:#000;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.calc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.fix{
+    margin-top:50px;
+}
+.left{
+    background-color: #000;
+    color:white;
+    border:0;
+}
+.right{
+    background-color: #000;
+    color:white;
+    border:0;
+}
+
+.elem-total{
+text-align: end;  
+position: fixed;
+left: 80%;
+font-size: 15px;
+font-family: 'Poppins';
+}
+.tit{
+    font-family: 'poppins';
+}
+.plases_title{
+    margin-bottom:36px;
+}
+.caption{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.view-all{
+    font-size: 16px;
+    color:blue;
+    text-decoration: none;
+    padding-right: 60px;
+
+}
+LI{
+    list-style-type: none;
+}
+
+.cards{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+
+.photocard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "poppins";
+}
+#mar{
+    padding-left:210px;
+}
+#mark{
+    padding-right: 210px;
+}
+
+.searchbuy{       
+    padding:10px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background: #1877F2;
+    border:0;
+    padding-bottom: 30px;
+}
+    
+.text_card{
+    text-align:center;
+}
+
+.contacts{
+    margin-top: 150px;
+    background-color:#faf9ea ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#nav{
+    font-size: 19px;
+    padding-top:15px;
+    color:#1877F2; 
+    padding-left: 120px;
+}
+
+.navi{
+font-size:19px;
+color: white;
+display: flex;
+flex-wrap: wrap;
+}
+
+#cont{
+    color:#1877F2;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+}
+.benefits-text {
+    margin-top: 1em;
+    margin-left: 160px;
+}
+
+.pay {
+    background-color: rgba(30, 220, 245, 0.26);
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.buy-now:hover,
+.pay:hover {
+    background-color: rgb(11, 106, 143);
+    transition: 1s;
+}

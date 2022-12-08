@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odigo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul id="minmenu">
+        <a href="index.html">
+            <li>Home</li>
+        </a>
+        <a href="catalog.html">
+            <li>Catalog</li>
+        </a>
+        <a href="cart.html">
+            <li>Cart</li>
+        </a>
+        <a href="https://shop.japanobjects.com/blogs/editorial/kimono-patterns">
+            <li>Original website</li>
+        </a>
+    </ul>
+    <div class="container">
+        <div id="header">
+            <div class="logo">ElKimono</div>
+            <ul id="myLinks">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="catalog.html">
+                    <li>Catalog</li>
+                </a>
+                <a href="cart.html">
+                    <li>Cart</li>
+                </a>
+                <a href="https://shop.japanobjects.com/blogs/editorial/kimono-patterns">
+                    <li>Original website</li>
+                </a>
+            </ul>
+            <button id="nav-icon" onclick="myFunction()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+        </div>
+    </div>
+    <div class="benefits">
+        <div class="container">
+            <div class="cart">
+                <h2 class="ben-header">Cart</h2>
+                <a href="index.html" class="centered-header">
+                    <h3>Continue shopping</h3>
+                </a>
+                <div class="in-cart">
+                    <div class="elem-total">
+                        <h2>Total <span id="total">0</span><span> $</span> </h2>
+                        <button class="pay" id="pay">PAY</button>
+                    </div>
+                    <div class="elems">
+                        <!--<div class="elem">
+                            <img src="images/1.webp" alt="" class="elem-image">
+                            <div class="elem-info">
+                                <h3 class="elem-head">Kimono</h3>
+                                <p class="elem-description">Yellow kimono with flowers</p>
+                                <button class="counter" id="plus">+</button>
+                                <span class="elem-num">0</span>
+                                <button class="counter" id="minus">-</button>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="MAIN.JS"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>
