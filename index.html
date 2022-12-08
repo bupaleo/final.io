@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touristic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"> 
+        <div class="wrapper"> 
+            <div class="header__wrapper">
+                <div class="header__logo"> TOURISM </div> 
+                <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"> <a href="#!" class="header__link"> Home</a>  
+                </li> 
+                    <li class="header__item"> <a href="tours.html" class="header__link"> Tours</a>  
+                    </li> 
+                    <li class="header__item"> <a href="backet.html" class="header__link"> Your tours</a>  
+                    </li> 
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main"> 
+        <section class="intro">
+            <div class="wrapper">        
+                <div ><h1 class="intro__title">ABOUT KYRGYZSTAN</h1></div>
+                <p class="intro__subtitle">
+                    The Kyrgyz Republic is located in the north-eastern part of Central Asia, occupies the western part of the Tien Shan mountain system and the northern mountainous regions of Pamir-Alai. More than 80% of the territory of the republic is located at an altitude of more than 1500 meters above sea level.
+                    
+                    The country has a high tourist potential covering 22 different ecosystems; 160 varieties of mountain and flat landscapes; 94% of the territory is occupied by mountains, of which 70% are high mountains. Among the famous mountain peaks are Victory Peak (7439 m), Lenin Peak (7134 m), Khan Tengri Peak (6995 m). One of the longest "Enylchek" glaciers is a world-class attraction. </p>
+            
+            </div>
+        </section>
+    </main>
+    <section class="distination"> 
+        <div class="first" data-id="1"> <h1 class="first_text">Spend your summer at Issyk-Kul!</h1>  
+            <p class="second_text">
+                Issyk-Kul with its crystal clear water, mineral springs, magnificent sandy beaches and combination of sea and mountain climate is an excellent resort area with mud and thermo-mineral treatment. Healing water of springs and the lake itself is used in swimming pools, and the therapeutic sulfide silt mud in combination with natural and climatic factors of Issyk-Kul is used to treat many chronic diseases.          </p>
+            <button type="submit" class="search-from__submit" onclick="setElem(this)" id="1">300$</button></div>
+             <img class="first_img" src="/img/issik-kul.jpg" alt="image">
+    </section>
+    <section class="distination">        
+        <div > <img class="first_img"src="img/karakol.jpg" alt="image"> </div>
+        <div class="first" id="first" data-id="2"> 
+            <h1 class="first_text">Skiing in Karakol</h1>  
+        <p class="second_text">
+            Very close to Karakol you will find beautiful mountain landscapes with snowy peaks and spectacular views of waterfalls, lakes and canyons with red rocks. All this makes Karakol an ideal place from which you can easily organize day trips to immerse yourself in nature and adventure during the day and return to the city in the evening. </p>
+            <button type="submit" class="search-from__submit" onclick="setElem(this)" id="2">399$</button></div>
+</section>
+<section class="plases"> 
+    <div class="wrapper_full"> 
+         <div class="caption"> 
+            <h2 class="plases_title section-title">Photo card </h2> <a href="#" class="view-all"> VIEW ALL</a>
+        </div>
+        <div class="photocard">
+            <div> <img class="cards" src="img/jailoo.avif" alt="img"> <p class="text_card"> Jailoo Sarala-Saz </p>  <button type="submit" class="searchbuy"> <a href="tours.html">  For more</a> </button></div>
+            <div> <img class="cards" src="img/koltor.jpg" alt="image"> <p class="text_card">  Kol-Tor </p><button type="submit" class="searchbuy"> <a href="tours.html">  For more</a></button></div>
+            <div> <img class="cards" src="img/kolsuu.webp" alt="image"> <p class="text_card"> Kol-Suu </p> <button type="submit" class="searchbuy"><a href="tours.html">  For more</a></button></div>
+            <div id="mar"> <img class="cards"  src="img/burana.jpg" alt="image"> <p class="text_card"> Burana </p> <button type="submit" class="searchbuy"><a href="tours.html">  For more</a></button></div> 
+            <div id="mark"> <img class="cards"  src="img/sonkul.jpg" alt="image"> <p class="text_card"> Son-Kol</p> <button type="submit" class="searchbuy"><a href="tours.html">  For more</a></button></div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div id="nav" class="name"> Navigations: 
+ 
+        <div> <a href="#!" class="header__link" id="cont"> Home</a>  </div>
+        <div> <a href="#!" class="header__link" id="cont"> About</a>  </div>
+        <div> <a href="tours.html" class="header__link" id="cont"> Tours</a> </div> 
+        <div> <a href="backet.html" class="header__link" id="cont"> Your tours</a> </div>
+</div>
+    <div id="nav" class="name"> Contacts:  
+    <div> WhatsApp: +996709073034 </div>
+    <div> Instagram: @bupaleo </div>
+    <div> Telegram: @bupaleo </div>
+</div>
+    </section>
+
+<script src="main.js">
+</script>
+</body>
+</html>
